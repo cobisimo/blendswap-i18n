@@ -1,295 +1,287 @@
 # LANGUAGE translation of CakePHP Application
-# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Copyright Nikola Radovanovic <cobisimo@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-08-01 10:47-0600\n"
 "PO-Revision-Date: 2013-10-23 00:53+0100\n"
-"Last-Translator: Vido89 <vidovic.slobodan@yahoo.com>\n"
-"Language-Team: Blend Swap Translators <vidovic.slobodan89@gmail.com>\n"
+"Last-Translator: Nikola Radovanovic <cobisimo@gmail.com>\n"
+"Language-Team: Blend Swap Translators <cobisimo@gmail.com>>\n"
 "Language: Serbian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 1.5.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: Model/Blend.php:validation for field title
 msgid "Your blend must have a name!"
-msgstr "Vaš blend fajl mora imati ime!"
+msgstr "Ваш blend датотека мора имати име!"
 
 #: Model/Blend.php:validation for field title
 msgid "The Blend Name must be between 2 and 140 chars long!"
-msgstr "Ime blend fajla mora biti između 2 i 140 karaktera dužine !"
+msgstr "Име blend датотеке мора бити дуго између 2 и 140 знакова!"
 
 #: Model/Blend.php:validation for field body
 msgid "Your blend must have a description!"
-msgstr "Vaš blend fajl mora sadržati opis!"
+msgstr "Ваша blend датотека мора садржати опис!"
 
 #: Model/Blend.php:validation for field body
 msgid "The description must be between 40 and 5000 chars long!"
-msgstr "Opis mora biti između 40 i 5000 karaktera dužine!"
+msgstr "Опис мора бити дуг између 40 и 5000 знакова!"
 
 #: Model/Blend.php:validation for field three_dee
 msgid "That is not a url!"
-msgstr "Url nije ispravan!"
+msgstr "АИнтернет ареса није исправна!"
 
 # viewer ??? web viewer ? 3D viewer
 # pregledaš za šta ?
 #: Model/Blend.php:validation for field three_dee
 msgid "That is not a supported viewer."
-msgstr "To nije ispravan pregledač!"
+msgstr "Прегледач није подржан."
 
 #: Model/Blend.php:validation for field blend_license
 msgid "Please choose a license for your blend."
-msgstr "Molimo odaberite licencu za vaš blend fajl."
+msgstr "Молимо изаберите лиценцу за вашу Blend датотеку."
 
 #: Model/Blend.php:validation for field blend_license
 msgid "Invalid value for Blend License!"
-msgstr "Neispravna vrijednost za blend licencu!"
+msgstr "Неисправна вредност Blend лиценце!"
 
 #: Model/Blend.php:validation for field blender_version
 msgid "Please choose the version of blender you used to make this blend."
-msgstr ""
-"Molimo odaberite verziju blendera koju ste koristili za kreiranje ovog blend "
-"fajla."
+msgstr "Молимо одаберите верзију Blender-а коју сте користили за креирање ове blend датотеке."
 
 #: Model/Blend.php:validation for field blender_version
 msgid "Invalid value type for Blender version"
-msgstr "Vrijednost za verziju Blender nije ispravna"
+msgstr "Неисправна или непостојећа верзија Blender-а"
 
 #: Model/Blend.php:validation for field tags
 msgid ""
 "Tags help others find your blend. Use at least one tag and don't forget the "
 "commas!"
 msgstr ""
-"Tag pomaže drugima da pronađu tvoj blend fajl. Koristite minimum jedan tag i "
-"ne zaboravite zareze!"
+"Ознаке помажу другима да пронађу твоју blend датотеку. Користите најмање једну ознаку и не заборавите зарезе!"
 
 #: Model/Blend.php:validation for field tags
 msgid "Those are not tags, write valid, comma separated tags!"
-msgstr "Pišite ispravno, sa zarezima odvojene riječi !"
+msgstr "Ово нису ознаке, оне морају бити одвојене зарезима!"
 
 #: Model/Blend.php:validation for field categories
 #: Model/Request.php:validation requirements
 msgid "Pick one to four categories."
-msgstr "Označite 1 pa sve do 4 kategorije."
+msgstr "Изаберите једну од четири категорије."
 
 # taxonomiy ???
 #: Model/Blend.php:validation for field categories
 msgid "Invalid taxonomiy input."
-msgstr "Neispravna unijeta vrijednost."
+msgstr "Унета вредност није исправна."
 
 #: Model/Blend.php:validation for field change_log
 msgid "Please tell us what you changed in the data or the files."
-msgstr "Molimo navedite podatke koje ste izmijenili."
+msgstr "Наведите шта сте изменили у подацима или датотекама."
 
 #: Model/Blend.php:validation for field hello Model/Message.php:validation
 #: Model/Profile.php:validation Model/Report.php:validation
 #: Model/Request.php:validation Model/User.php:validation
 msgid "empty"
-msgstr "prazno"
+msgstr "празно"
 
 #: Model/Collection.php:validation for field name
 msgid "The collection Must have a name"
-msgstr "Kolekcija mora imati ime"
+msgstr "Колекција мора имати име"
 
 #: Model/Collection.php:validation for field visibility
 msgid "Choose a visibility setting"
-msgstr "Odaberite podešavanja za vidljivost"
+msgstr "Изаберите подешавања за видљивост"
 
 #: Model/Collection.php:validation for field visibility
 msgid "Invalid visibility value!!!"
-msgstr "Vrijednost za vidljivost nije ispravna!"
+msgstr "Вредност за видљивост није исправна!!!"
 
 #: Model/Comment.php:validation for field body
 msgid "The comment cannot be empty!"
-msgstr "Komentar ne može biti prazan!"
+msgstr "Коментар не може бити празан!"
 
 #: Model/Comment.php:validation for field user_id;validation
 #: parent_id;validation object_id Model/Revision.php:validation
 msgid "numeric"
-msgstr "numerička"
+msgstr "бројеви"
 
 #: Model/Contact.php:validation for field name;validation email;validation
 #: body
 msgid "This field is required."
-msgstr "Ovo polje mora biti popunjeno."
+msgstr "Ово поље мора бити попуњено."
 
 #: Model/Contact.php:validation for field name
 msgid "This field contains invalid characters..."
-msgstr "Ovo polje sadrži karaktere koji nisu podržani  ..."
+msgstr "Ово поље садржи знакове који нису подржани..."
 
 #: Model/Contact.php:validation for field email
 msgid "This doesn't look like an email..."
-msgstr "Ovo ne izgleda kao ispravan email ..."
+msgstr "Ово не изгледа као исправна адреса ел. поште..."
 
 #: Model/Contact.php:validation for field subject
 msgid "Please select the subject."
-msgstr "Molimo odaberite naslov."
+msgstr "Молимо, изаберите наслов."
 
 #: Model/Contact.php:validation for field subject
 msgid "An error happened, try again."
-msgstr "Dogodila se greška, pokušajte ponovo."
+msgstr "Догодила се грешка, покушајте поново."
 
 #: Model/Contact.php:validation for field website
 msgid "This is not a url"
-msgstr "Ovo nije url"
+msgstr "Ово није интернет адреса"
 
 #: Model/Email.php:validation for field name
 msgid "this email must have a name"
-msgstr "ovaj email mora imati ime"
+msgstr "ова адреса ал. поште мора имати име"
 
 #: Model/Email.php:validation for field pointer
 msgid "emails must have a call key so they can be called from inside the app."
-msgstr ""
-"email-ovi moraju imati ključ za pozivanje tako da mogu biti pozvani unutar "
-"aplikacije."
+msgstr "адресе ел. поште морају имати кључ за позивање тако да могу бити позвани унутар програма."
 
 #: Model/Email.php:validation for field pointer
 msgid "Only letters and underscores are allowed"
-msgstr "Dozvoljeni su samo slova i donja crta"
+msgstr "Дозвољена су само слова и доња црта"
 
 #: Model/Message.php:validation for field body
 msgid "Empty messages are not allowed."
-msgstr "Prazna poruka nije dozvoljena."
+msgstr "Није дозвољена празна порука."
 
 # allowedStatuses
 # dozvoljeni statusi ?
 # dozvoljeniStatusi ?
 #: Model/Message.php:validation for field status
 msgid "allowedStatuses"
-msgstr "dozvoljeni statusi"
+msgstr "дозвољени статуси"
 
 #: Model/Profile.php:validation for field website;validation
 #: deviantart;validation bartists;validation flickr;validation
 #: facebook;validation youtube;validation vimeo;validation twitter;validation
 #: github;validation pinterest;validation behance;validation linkedin
 msgid "This does not look like an URL"
-msgstr "Ovo ne izgleda kao ispravan URL"
+msgstr "Ово не изгледа као исправна интернет адреса"
 
 #: Model/Question.php:validation for field body
 msgid "Your question needs a body with details."
-msgstr "Vaše pitanje mora sadržati poruku sa opisom."
+msgstr "Ваше питање мора садржати поруку са детаљима."
 
 #: Model/Question.php:validation for field body
 msgid "Your question body must be between 40 and 2000 characters long."
-msgstr "Vaša poruka u pitanju pora biti imeđu 40 i 2000 karaktera dužine."
+msgstr "Ваша порука у питању пора бити дуга имеђу 40 и 2000 знакова."
 
 #: Model/Question.php:validation for field title
 msgid "Your question needs a title."
-msgstr "Vašem pitanju je potreban naslov."
+msgstr "Вашем питању је потребан наслов."
 
 #: Model/Question.php:validation for field title
 msgid "Your question title must be between 10 and 256 characters long."
-msgstr "Naslov pitanja mora biti između 10 i 256 karaktera dužine."
+msgstr "Наслов питања мора бити дуг између 10 и 256 знакова."
 
 #: Model/Question.php:validation for field tags
 msgid ""
 "Tags help other users to find your question. You must use at least one tag."
 msgstr ""
-"Tag pomaže drugim ljudima da pronađu vaše pitanje. Morate navesti jedan tag."
+"Ознака помаже другим људима да пронађу ваше питање. Морате навести бај једну ознаку."
 
 #: Model/Report.php:validation for field reason
 msgid "You must choose an option."
-msgstr "Morate odabrati opciju."
+msgstr "Морате одабрати опцију."
 
 #: Model/Report.php:validation for field reason
 msgid "The reason contains invalid characters"
-msgstr "Razlog sadrži ne dozvoljen(e) karakter(e)"
+msgstr "Разлог садржи недозвољене знакове"
 
 #: Model/Report.php:validation for field body
 msgid ""
 "You must provide links and/or notes for us to be able to take care of your "
 "report"
 msgstr ""
-"Molimo navedite link ili opis da bismo mogli da razmotrimo vašu prijavu"
+"Молимо наведите везе и/или опис да бисмо могли да размотримо ваш извештај"
 
 #: Model/Request.php:validation for field title
 msgid "Your request must have a title"
-msgstr "Vaš zahtjev mora imati naslov"
+msgstr "Ваш захтев мора садржати наслов"
 
 #: Model/Request.php:validation for field body
 msgid "You must provide notes and details about the request."
-msgstr "Morate navesti opis i detalje vezano za zahtjev."
+msgstr "Морате навести опис и детаље захтева."
 
 #: Model/Revision.php:validation for field user_id;validation
 #: object_id;validation object_class;validation object_data;validation log
 #: Model/Term.php:validation slug
 msgid "notEmpty"
-msgstr "Popunjeno"
+msgstr "Попуњено"
 
 #: Model/Revision.php:validation for field object_class
 msgid "alphanumeric"
-msgstr "alfanumerički"
+msgstr "алфанумерички"
 
 # isUnique ???
 # jeUnikatan
 #: Model/Term.php:validation for field slug
 msgid "isUnique"
-msgstr "je Unikatan"
+msgstr "је Уникатан"
 
 # validChars
 # validniKarakteri ???
 #: Model/Term.php:validation for field slug
 msgid "validChars"
-msgstr "Podržane vrijednsti"
+msgstr "исправни знаци"
 
 #: Model/Term.php:validation for field slug
 msgid "between"
-msgstr "između"
+msgstr "између"
 
 #: Model/User.php:validation for field username
 msgid "Only letters and numbers please."
-msgstr "Samo slova i brojeve molimo."
+msgstr "Користите само слова и бројеве."
 
 #: Model/User.php:validation for field username
 msgid "The username must be between 2 and 32 characters long!"
-msgstr "Korisničko ime mora biti između 2 i 32 karaktera dužine!"
+msgstr "Корисничко име мора бити дуго између 2 и 32 знакова!"
 
 #: Model/User.php:validation for field username
 msgid "Can not be empty"
-msgstr "Ne može biti prazno"
+msgstr "Не може бити празно"
 
 #: Model/User.php:validation for field username
 msgid "This username is already taken."
-msgstr "Neko drugi već koristi ovo ime."
+msgstr "Неко други већ користи ово име."
 
 #: Model/User.php:validation for field email;validation password
 msgid "Can not be left empty"
-msgstr "Ne možete ostaviti prazno"
+msgstr "Не може бити празно"
 
 #: Model/User.php:validation for field email
 msgid "Does not look like an email"
-msgstr "Niste unijeli ispravan email"
+msgstr "Нисте унели исправну адресу ел. поште"
 
 #: Model/User.php:validation for field email
 msgid ""
 "That email is already in use, maybe you signed up with tha email before?"
 msgstr ""
-"Ovaj email je već u upotrebi, možda ste se registrovali sa njim ranije?"
+"Овај адреса ел. поште је већ у употреби, можда сте се регистровали са њим раније?"
 
 #: Model/User.php:validation for field email
 msgid "This email is not allowed. You must use a real email adress."
-msgstr "Ovaj mail nije dozvoljen. Morate unijeti ispravan email."
+msgstr "Овај адреса ел. поште није дозвољена. Морате унети исправну адресу."
 
 #: Model/User.php:validation for field password
 msgid "Must be between 8 and 128 characters long"
-msgstr "Mora biti između 8 i 128 karaktera dužine"
+msgstr "Мора бити дужине између 8 и 128 знакова"
 
 #: Model/User.php:validation for field first_name;validation last_name
 msgid "Must be 2 letters or more."
-msgstr "Morate navesti 2 ili više slova."
+msgstr "Мора садржати 2 или више слова."
 
 #: Model/User.php:validation for field accept_terms
 msgid "You must accept the Terms Of Use!"
-msgstr "Porate prihvatiti uslove za korišćenje!"
+msgstr "Порате прихватити услове коришћења!"
 
 #: Model/User.php:validation for field bpp
 msgid "Invalid value type"
-msgstr "Unijeta vrijednost nije ispravna"
-
-#~ msgid "Wrong email..."
-#~ msgstr "Pogrešan email ..."
+msgstr "Врста вредности није исправна"
