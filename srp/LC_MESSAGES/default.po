@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-06-08 01:37+0100\n"
+"PO-Revision-Date: 2014-06-26 02:15+0100\n"
 "Last-Translator: Nikola Radovanovic <cobisimo@gmail.com>\n"
 "Language-Team: Blend Swap Translators\n"
 "Language: Serbian\n"
@@ -39,7 +39,7 @@ msgstr "Беџ није обрисан"
 
 #: Controller/BlendsController.php:213 View/Elements/menus/topMenu.ctp:123
 msgid "Staff Picks"
-msgstr ""
+msgstr "Одабири уредника"
 
 #: Controller/BlendsController.php:276
 msgid ""
@@ -48,13 +48,12 @@ msgid ""
 msgstr ""
 
 #: Controller/BlendsController.php:278
-#, fuzzy
 msgid ""
 "There was an error while resubmitting yourblend to the admins. Please try "
 "again, and report if you see this message a second time."
 msgstr ""
-"Дошло је до проблема приликом брисању blend датотеке, покушајте поново, а "
-"грешку пријавите ако се понови."
+"Дошло је до грешке приликом поновног слања blend датотеке администратору. "
+"Покушајте поново, а грешку пријавите ако се понови."
 
 #: Controller/BlendsController.php:293;1099;1122;1151
 msgid "Invalid blend"
@@ -81,13 +80,12 @@ msgid "Your blend was also added as a response to %s"
 msgstr ""
 
 #: Controller/BlendsController.php:445
-#, fuzzy
 msgid ""
 "The blend was not saved, please review any omissions below and try again. "
 "And do not forget to re-select your files"
 msgstr ""
 "Blend датотека није сачувана. Проверите грешке испод и покушајте поново. "
-"Морате опет означити датотеке за додавање."
+"Не заборавите да пононо означите датотеке за додавање."
 
 #: Controller/BlendsController.php:570
 msgid "The requested blend does not exist."
@@ -102,7 +100,6 @@ msgid "The blend was saved, but its categories and tags failed to save"
 msgstr ""
 
 #: Controller/BlendsController.php:595
-#, fuzzy
 msgid "The blend was not saved, please try again."
 msgstr "Blend датотека није сачувана, покушајте поново."
 
@@ -165,7 +162,6 @@ msgid "Invalid collection"
 msgstr "Неважећа колекција"
 
 #: Controller/CollectionsController.php:225
-#, fuzzy
 msgid "The collection was saved"
 msgstr "Колекција је сачувана"
 
@@ -192,12 +188,10 @@ msgid "Collection was not deleted"
 msgstr "Колекција није обрисана"
 
 #: Controller/CollectionsController.php:396
-#, fuzzy
 msgid "An error happened when adding this blend to the collection."
-msgstr "Додај ову blend датотеку у колекцију"
+msgstr "Појавила се грешка приликом додавања ове blend датотеке у колекцију"
 
 #: Controller/CollectionsController.php:489
-#, fuzzy
 msgid "You have not created any collections yet, create one now!:)"
 msgstr "Тренутно немате ни једну колекцију, креирајте једну сада!"
 
@@ -207,9 +201,8 @@ msgstr "Измена колекција"
 
 #: Controller/CollectionsController.php:498 View/Terms/_view.ctp:9
 #: View/Terms/admin_view.ctp:9
-#, fuzzy
 msgid "Name"
-msgstr "Презиме"
+msgstr "Име"
 
 #: Controller/CollectionsController.php:499
 msgid "Create"
@@ -234,21 +227,18 @@ msgid "Associate Member"
 msgstr "Придружени члан"
 
 #: Controller/CommentsController.php:124
-#, fuzzy
 msgid "The comment did not validate."
-msgstr "Коментар је сачуван"
+msgstr "Коментар није прошао проверу."
 
 #: Controller/CommentsController.php:177
 msgid "Process failed!"
-msgstr "Неуспео процес!"
+msgstr "Процес није успело!"
 
 #: Controller/CommentsController.php:194
-#, fuzzy
 msgid "there was an error when saving your comment"
-msgstr "Догодила се грешка приликом чувања вашег налога."
+msgstr "догодила се грешка приликом чувања вашег коментара"
 
 #: Controller/CommentsController.php:202
-#, fuzzy
 msgid "Edit comment"
 msgstr "Измени кометар"
 
@@ -263,13 +253,12 @@ msgid "Cancel"
 msgstr "Откажи"
 
 #: Controller/CommentsController.php:230
-#, fuzzy
 msgid "The comment was deleted"
-msgstr "Коментар није обрисан"
+msgstr "Коментар је обрисан"
 
 #: Controller/CommentsController.php:232
 msgid "There was an error deleting this comment!"
-msgstr ""
+msgstr "Појавила се грешка приликом брисања овог коментара!"
 
 #: Controller/ContactsController.php:68
 msgid ""
@@ -304,16 +293,15 @@ msgstr "Контакт није обрисан"
 
 #: Controller/DownloadsController.php:47 View/Users/bandwidth.ctp:15
 msgid "Complete downloads history"
-msgstr ""
+msgstr "Комплетан историјат преузимања"
 
 #: Controller/DownloadsController.php:73
 msgid "Invalid download"
 msgstr "Датотека за преузимање није исправна"
 
 #: Controller/DownloadsController.php:85
-#, fuzzy
 msgid "This blend doesn't exist!"
-msgstr "Тражена blend датотека не постоји."
+msgstr "Ова blend датотека не постоји!"
 
 #: Controller/DownloadsController.php:108
 msgid ""
@@ -387,9 +375,8 @@ msgstr "Creative Commons Attribution-NonCommercial 3.0"
 
 # Creative Commons Attribution-NonCommercial 3.0
 #: Controller/DownloadsController.php:350;351
-#, fuzzy
 msgid "Creative Commons Attribution-NonCommercial-ShareAlike 3.0"
-msgstr "Creative Commons Attribution-NonCommercial 3.0"
+msgstr "Creative Commons Attribution-NonCommercial-ShareAlike 3.0"
 
 #: Controller/DownloadsController.php:365
 msgid ""
@@ -424,29 +411,24 @@ msgid "What's the deal with all this \"giving credits\" thing?"
 msgstr "Шта значи ово \"давање заслуга\"?"
 
 #: Controller/EventsController.php:171;209;235
-#, fuzzy
 msgid "Invalid event"
-msgstr "Несправна мета"
+msgstr "Несправан догађај"
 
 #: Controller/EventsController.php:192;213
-#, fuzzy
 msgid "The event has been saved"
-msgstr "Мета је сачувана"
+msgstr "Догађај је сачуван"
 
 #: Controller/EventsController.php:194;216
-#, fuzzy
 msgid "The event could not be saved. Please, try again."
-msgstr "Мета није сачувана. Молимо покушајте поново."
+msgstr "Догађај није могао бити сачуван. Молимо покушајте поново."
 
 #: Controller/EventsController.php:238
-#, fuzzy
 msgid "Event deleted"
-msgstr "Мета је обриасана"
+msgstr "Догађај је обриасан"
 
 #: Controller/EventsController.php:241
-#, fuzzy
 msgid "Event was not deleted"
-msgstr "Мета није обрисана"
+msgstr "Догађај није обрисан"
 
 #: Controller/FeaturesController.php:31;63;91
 msgid "Invalid feature"
@@ -478,33 +460,28 @@ msgstr ""
 
 # atom
 #: Controller/ItemsController.php:148;183;211
-#, fuzzy
 msgid "Invalid item"
-msgstr "Атом није исправан"
+msgstr "Неисправна ставка"
 
 # atom
 #: Controller/ItemsController.php:163;187
-#, fuzzy
 msgid "The item has been saved."
-msgstr "Атом је сачуван"
+msgstr "Ставка је сачувана"
 
 # atom
 #: Controller/ItemsController.php:166;190
-#, fuzzy
 msgid "The item could not be saved. Please, try again."
-msgstr "Атом није сачуван. Молим вас, покушајте поново."
+msgstr "Ставка није сачувана. Молим вас, покушајте поново."
 
 # atom
 #: Controller/ItemsController.php:215
-#, fuzzy
 msgid "The item has been deleted."
-msgstr "Атом је сачуван"
+msgstr "Ставка је избрисана"
 
 # atom
 #: Controller/ItemsController.php:217
-#, fuzzy
 msgid "The item could not be deleted. Please, try again."
-msgstr "Атом није сачуван. Молим вас, покушајте поново."
+msgstr "Ставка није избрисана. Молим вас, покушајте поново."
 
 #: Controller/LimitsController.php:43;74;100
 msgid "Invalid limit"
@@ -563,53 +540,47 @@ msgid "Membership was not deleted"
 msgstr "Члански налог није обрисан"
 
 #: Controller/MessagesController.php:95
-#, fuzzy
 msgid "This user does not exist any more on Blend Swap"
-msgstr "Овај корисник непостоји на Blend Swap-у."
+msgstr "Овај корисник не постоји више на Blend Swap-у."
 
 #: Controller/MessagesController.php:106
 msgid "Conversation with %s"
-msgstr ""
+msgstr "Разговор са %s"
 
 #: Controller/MessagesController.php:143
-#, fuzzy
 msgid "This user doesn't exist!"
-msgstr "Овај корисник непостоји на Blend Swap-у."
+msgstr "Овај корисник не постоји!"
 
 #: Controller/MessagesController.php:151
-#, fuzzy
 msgid "Your message has been sent"
-msgstr "Порука је сачувана"
+msgstr "Ваша порука је послата"
 
 #: Controller/MessagesController.php:153
-#, fuzzy
 msgid "An error occurred when saving your message. Please try again"
-msgstr "Пријава није сачувана. Молимо покушајте поново."
+msgstr "Појавила се грешка приликом слања поруке. Молимо покушајте поново."
 
 #: Controller/MessagesController.php:205
 msgid "Your message was successfully sent to %s"
-msgstr ""
+msgstr "Ваша порука је успешно послата ка %s"
 
 #: Controller/MessagesController.php:211
-#, fuzzy
 msgid ""
 "There was an error while sending your message please report you saw this."
 msgstr ""
-"Догодила се грешка приликом чувања ваше blend датотеке, пријавите да сте "
-"видели ову грешку!"
+"Догодила се грешка приликом слања ваше поруке, пријавите да сте "
+"видели ову грешку."
 
 #: Controller/MessagesController.php:217
 msgid "We received an empty message please write a message for %s."
-msgstr ""
+msgstr "Примили смо празну поруку молим вас напишите поруку за %s."
 
 #: Controller/MessagesController.php:225
 msgid "Sorry you can not message yourself!"
-msgstr ""
+msgstr "Жао нам је али не можете сами себи слати поруку!"
 
 #: Controller/MessagesController.php:230
-#, fuzzy
 msgid "Message to %s"
-msgstr "Поруке"
+msgstr "Порука за %s"
 
 #: Controller/MessagesController.php:296
 msgid "Message deleted"
@@ -625,7 +596,7 @@ msgstr "Неисправна вест"
 
 #: Controller/NewsController.php:126
 msgid "The news has been saved"
-msgstr "мјесец је сачувана"
+msgstr "Вест је сачувана"
 
 #: Controller/NewsController.php:129;177
 msgid "The news could not be saved. Please, try again."
@@ -652,18 +623,16 @@ msgid "The option could not be saved. Please, try again."
 msgstr "Опција није сачувана. Молимо покушајте поново."
 
 #: Controller/OptionsController.php:112
-#, fuzzy
 msgid "Error!The option could not be saved. Please, try again."
-msgstr "Грешка ! Опција није сачувана. Молимо покушајте поново."
+msgstr "Грешка! Опција није сачувана. Молимо покушајте поново."
 
 #: Controller/OptionsController.php:134
 msgid "Option deleted"
 msgstr "Опција обрисана"
 
 #: Controller/OptionsController.php:137
-#, fuzzy
 msgid "Error!The option was not deleted"
-msgstr "Грешка ! Опција није обрисана"
+msgstr "Грешка! Опција није обрисана"
 
 #: Controller/PagesController.php:121;127;132;167;201
 msgid "Invalid page"
@@ -746,9 +715,8 @@ msgid "Invalid question"
 msgstr "Неисправно питање"
 
 #: Controller/QuestionsController.php:109
-#, fuzzy
 msgid "An error happened when marking the question"
-msgstr "Догодила се грешка приликом слања захтева"
+msgstr "Догодила се грешка приликом ознавања питања"
 
 #: Controller/QuestionsController.php:138;169;239;261
 msgid "The question has been saved"
@@ -851,37 +819,33 @@ msgid "Request received but not dispatched"
 msgstr ""
 
 #: Controller/SubsController.php:105
-#, fuzzy
 msgid ""
 "There was an error while processing your request, please report you saw this "
 "message."
 msgstr ""
-"Догодила се грешка приликом чувања ваше blend датотеке, пријавите да сте "
+"Догодила се грешка приликом обраде вашег захтева, пријавите да сте "
 "видели ову грешку!"
 
 #: Controller/SubsController.php:131
-#, fuzzy
 msgid ""
 "There was an error when saving your subscription, please report you saw this "
 "message."
 msgstr ""
-"Догодила се грешка приликом чувања ваше blend датотеке, пријавите да сте "
+"Догодила се грешка приликом чувања ваше претплате, пријавите да сте "
 "видели ову грешку!"
 
 #: Controller/SubsController.php:138
-#, fuzzy
 msgid ""
 "There was an error when processing your request, please try again. and "
 "report if this happens again"
 msgstr ""
-"Дошло је до проблема у обради вашег захтева. Покушајте поново и пријавите "
+"Дошло је до проблема приликом обраде вашег захтева. Покушајте поново и пријавите "
 "грешку ако се понови."
 
 # Term Id
 #: Controller/TermrelsController.php:31
-#, fuzzy
 msgid "Term removed"
-msgstr "Ид термина"
+msgstr "Појам је уклоњен"
 
 #: Controller/TermsController.php:44 View/Blends/edit.ctp:39
 #: View/Elements/menus/topMenu.ctp:71 View/Elements/navs/taxonomies.ctp:4
@@ -921,22 +885,19 @@ msgid "Userbadge was not deleted"
 msgstr "Кориснички беџ није обрисан"
 
 #: Controller/UsersController.php:164
-#, fuzzy
 msgid "This user does not exist on Blend Swap"
-msgstr "Овај корисник непостоји на Blend Swap-у."
+msgstr "Овај корисник не постоји на Blend Swap-у."
 
 #: Controller/UsersController.php:290
-#, fuzzy
 msgid "The account was saved correctly."
-msgstr "Колекција је сачувана"
+msgstr "Налог је исправно сачуван."
 
 #: Controller/UsersController.php:293
-#, fuzzy
 msgid ""
 "There was an error when saving the account, please see if you have any "
 "errors below"
 msgstr ""
-"Догодила се грешка приликом чувања ваше blend датотеке, пријавите да сте "
+"Догодила се грешка приликом чувања налога, пријавите да сте "
 "видели ову грешку!"
 
 #: Controller/UsersController.php:320
@@ -946,15 +907,13 @@ msgstr ""
 "пријављивања."
 
 #: Controller/UsersController.php:327
-#, fuzzy
 msgid "The username you entered is not valid, please check the rules again."
 msgstr ""
-"Корисничко име које сте унијели није исправно, молимо пробајте неко друго."
+"Корисничко име које сте унели није исправно, проверите поново правила."
 
 #: Controller/UsersController.php:375
-#, fuzzy
 msgid "Register your account"
-msgstr "Региструј се"
+msgstr "Региструј ваш налог"
 
 #: Controller/UsersController.php:400
 msgid ""
@@ -964,22 +923,19 @@ msgid ""
 msgstr ""
 
 #: Controller/UsersController.php:403
-#, fuzzy
 msgid ""
 "The data you entered does not validate, please review any red messages below "
 "and try again."
-msgstr "Подешавања нису сачувана. Молимо исправите грешке и покушајте поново."
+msgstr "Подаци које сте унели нису исправни, проверите све црвене поруке испод и покушајте поново."
 
 #: Controller/UsersController.php:406
-#, fuzzy
 msgid "The passwords you entered do not match, please try again."
 msgstr ""
-"Корисничко име које сте унијели није исправно, молимо пробајте неко друго."
+"Лозинке које сте унели не одговараји, молимо пробајте поново."
 
 #: Controller/UsersController.php:447
-#, fuzzy
 msgid "Recaptcha challenge was invalid, please try again."
-msgstr "Цапцха је неисправна пробајте поново."
+msgstr "Recaptcha изазов није добар, пробајте поново."
 
 #: Controller/UsersController.php:451
 msgid "Please fill the ReCAPTCHA field."
@@ -987,7 +943,7 @@ msgstr ""
 
 #: Controller/UsersController.php:497
 msgid "Captcha was incorrect please try again."
-msgstr "Цапцха је неисправна пробајте поново."
+msgstr "Captcha није исправна, пробајте поново."
 
 #: Controller/UsersController.php:726
 msgid ""
@@ -1037,35 +993,31 @@ msgid ""
 msgstr ""
 
 #: Controller/UsersController.php:1272
-#, fuzzy
 msgid "Manage Portfolio"
-msgstr "Измена портфолија"
+msgstr "Управљај портфолиом"
 
 #: Controller/UsersController.php:1297
-#, fuzzy
 msgid "Your password was updated!"
-msgstr "Ваш проток је обновљен"
+msgstr "Ваш лозинка је промењена!"
 
 #: Controller/UsersController.php:1299;1337
-#, fuzzy
 msgid "The password was not updated, please try again."
-msgstr "Страница није сачувана. Молимо покушајте поново."
+msgstr "Лозинка није промењена, покушајте поново."
 
 #: Controller/UsersController.php:1302
-#, fuzzy
 msgid "The passwords didn't match. Please try again."
-msgstr "Страница није сачувана. Молимо покушајте поново."
+msgstr "Лозинке не одговарају, покушајте поново."
 
 #: Controller/UsersController.php:1329
 msgid ""
 "Sorry, this account is blocked, to recover it you will have to get in touch "
 "with the administrators."
 msgstr ""
+"Жао нам је, овај налог је блокиран, ако желите да га одблокирате контактирајте администратора."
 
 #: Controller/UsersController.php:1340
-#, fuzzy
 msgid "The passwords didn't match, please try again."
-msgstr "Страница није сачувана. Молимо покушајте поново."
+msgstr "Лозинке не одговарају, покушајте поново."
 
 #: Controller/UsersController.php:1355
 msgid ""
@@ -1080,7 +1032,6 @@ msgid ""
 msgstr ""
 
 #: Controller/UsersController.php:1367 View/Users/password.ctp:83
-#, fuzzy
 msgid "Reset your password"
 msgstr "Ресетуј лозинку"
 
@@ -1450,13 +1401,13 @@ msgid ""
 "building the greatest Blender based 3D assets library, all free for personal "
 "and commercial use."
 msgstr ""
-"Blend Swap је поносна заједница 3Д умјетника који дијеле свој рад и "
+"Blend Swap је поносна заједница 3Д уметника који деле свој рад и "
 "учествују у изградњи највеће blendер 3Д заједнице радова, све је бесплатно "
 "за приватну и комерционалну употребу."
 
 #: View/App/home.ctp:43 View/Events/home.ctp:43
 msgid "Joins us now and get instant access!"
-msgstr "Придружи нам се и имат ћеш тренутни пристуш!"
+msgstr "Придружи нам се и имаћеш тренутни приступ!"
 
 #: View/App/home.ctp:47 View/Events/home.ctp:47
 msgid "Check out the features"
@@ -1478,11 +1429,11 @@ msgstr "Брзи ограничен приступ за све"
 
 #: View/App/home.ctp:62 View/Events/home.ctp:62
 msgid "Free forever"
-msgstr "Бесплатно заувијек"
+msgstr "Заувек бесплатно"
 
 #: View/App/home.ctp:63 View/Events/home.ctp:63
 msgid "Download 200 Megabytes a month"
-msgstr "Преузмите 200 Мегабајта мјесечно"
+msgstr "Преузмите 200 Мегабајта месечно"
 
 #: View/App/home.ctp:64;82 View/Events/home.ctp:64;82
 msgid "Upload your original creations any time"
@@ -1502,12 +1453,11 @@ msgstr "Прати blend радове, захтеве и кориснике"
 
 #: View/App/home.ctp:68 View/Events/home.ctp:68
 msgid "Open One Request a Month (Swappers)"
-msgstr "Отвори један захтев мјесечно (Сwапперс)"
+msgstr "Отвори један захтев месечно (Сwапперс)"
 
 #: View/App/home.ctp:69 View/Events/home.ctp:69
-#, fuzzy
 msgid "Up to 24 blends per page"
-msgstr "До 60 blend датотека по страници"
+msgstr "До 24 blend датотека по страници"
 
 # Associates - saradnici, označeni
 #: View/App/home.ctp:74 View/Events/home.ctp:74
@@ -1520,7 +1470,7 @@ msgstr "Побољшане карактеристике и посвећене е
 
 #: View/App/home.ctp:80 View/Events/home.ctp:80
 msgid "Paid subscription of $10/month or $80/year"
-msgstr "Плаћена предплата од 10$ мјесечно или 80$ годишње"
+msgstr "Плаћена предплата од 10$ месечно или 80$ годишње"
 
 #: View/App/home.ctp:81 View/Events/home.ctp:81
 msgid "Download all the assets you want!"
@@ -1564,9 +1514,8 @@ msgid "More social media fields to link to"
 msgstr "Додатна поља за линкове друштвених медија"
 
 #: View/App/home.ctp:93 View/Events/home.ctp:93
-#, fuzzy
 msgid "Up to 48 blends per page"
-msgstr "До 60 blend датотека по страници"
+msgstr "До 48 blend датотека по страници"
 
 #: View/App/home.ctp:101 View/Elements/menus/topMenu.ctp:453
 #: View/Events/home.ctp:101
@@ -1592,7 +1541,7 @@ msgstr "Опис"
 
 #: View/Blends/add.ctp:33 View/Blends/edit.ctp:11
 msgid "3D Preview URL"
-msgstr "УРЛ за приказ у 3Д"
+msgstr "Интернет адреса 3Д приказа"
 
 #: View/Blends/add.ctp:40 View/Blends/admin_view.ctp:49
 #: View/Blends/edit.ctp:16
@@ -1600,13 +1549,12 @@ msgid "Blender Version"
 msgstr "Верзија Blender-а"
 
 #: View/Blends/add.ctp:54
-#, fuzzy
 msgid "Blend license"
 msgstr "Blend лиценца"
 
 #: View/Blends/add.ctp:84 View/Blends/edit.ctp:29 View/Blends/view.ctp:90
 msgid "Fan Art"
-msgstr "Забавна умјетност"
+msgstr "Забавна уметност"
 
 #: View/Blends/add.ctp:88 View/Blends/edit.ctp:32
 msgid "No"
@@ -1618,7 +1566,7 @@ msgstr "Да"
 
 #: View/Blends/add.ctp:98
 msgid "Categorization and search tags"
-msgstr ""
+msgstr "Категоризација и ознаке претраге"
 
 #: View/Blends/add.ctp:100 View/Elements/navs/taxonomies.ctp:37
 #: View/Questions/view.ctp:59
@@ -1630,9 +1578,8 @@ msgid "Chose at least 1, and up to 4 categories"
 msgstr "Одаберите минимално 1-ну категорију, маx дозвољене су 4"
 
 #: View/Blends/add.ctp:126
-#, fuzzy
 msgid "Preview Image"
-msgstr "Погледај страницу"
+msgstr "Страница прегледа"
 
 #: View/Blends/add.ctp:130
 msgid "Image"
@@ -2060,21 +2007,18 @@ msgid "Edit Date"
 msgstr "Измени датум"
 
 #: View/Blends/media.ctp:18
-#, fuzzy
 msgid "Blend files"
-msgstr "Blend датотека"
+msgstr "Blend датотеке"
 
 #: View/Blends/media.ctp:22
-#, fuzzy
 msgid "File Name"
-msgstr "Blend име"
+msgstr "Име датотеке"
 
 # Top Uploaders - Najveći dodavači ???
 #: View/Blends/media.ctp:23;88 View/Requests/media.ctp:18
 #: View/Users/portfolio.ctp:45
-#, fuzzy
 msgid "Uploaded"
-msgstr "Нај додавачи"
+msgstr "Послато"
 
 #: View/Blends/media.ctp:24;89 View/Collections/edit.ctp:12
 #: View/Requests/media.ctp:19 View/Users/portfolio.ctp:46
@@ -2084,7 +2028,6 @@ msgstr "Видљивост"
 # default - podrazumjeva ili podrazumjevana
 #: View/Blends/media.ctp:53;59;107;113 View/Requests/media.ctp:37;43
 #: View/Users/portfolio.ctp:66
-#, fuzzy
 msgid "Set Default"
 msgstr "подразумевано"
 
@@ -2096,15 +2039,13 @@ msgid ""
 msgstr ""
 
 #: View/Blends/media.ctp:83 View/Requests/media.ctp:13
-#, fuzzy
 msgid "Preview images"
-msgstr "Погледај страницу"
+msgstr "Сличице прегледа"
 
 #: View/Blends/media.ctp:87 View/Requests/media.ctp:17
 #: View/Users/portfolio.ctp:44
-#, fuzzy
 msgid "Thumbnail"
-msgstr "Сличица"
+msgstr "Сличице"
 
 #: View/Blends/media.ctp:110 View/Requests/media.ctp:40
 #: View/Users/portfolio.ctp:63
@@ -2115,14 +2056,12 @@ msgid ""
 msgstr ""
 
 #: View/Blends/media.ctp:136 View/Requests/media.ctp:66
-#, fuzzy
 msgid "Add files"
-msgstr "Додај кључ"
+msgstr "Додај датотеке"
 
 #: View/Blends/media.ctp:177
-#, fuzzy
 msgid "Upload files"
-msgstr "Додај нову blend датотеку"
+msgstr "Пошаљи датотеке"
 
 #: View/Blends/search.ctp:19
 msgid ""
@@ -2131,9 +2070,8 @@ msgid ""
 msgstr ""
 
 #: View/Blends/user.ctp:7 View/Elements/user_nav_bar.ctp:11
-#, fuzzy
 msgid "%s's blends"
-msgstr "Сви blend радови"
+msgstr "%s blend радови"
 
 #: View/Blends/view.ctp:22 View/Elements/bars/news_actions.ctp:24
 #: View/Users/view.ctp:25
@@ -2180,9 +2118,8 @@ msgid "Download"
 msgstr "Преузми"
 
 #: View/Blends/view.ctp:89
-#, fuzzy
 msgid "This blend is %s!"
-msgstr "Ова blend датотека је у %s"
+msgstr "Овај blend рад је %s!"
 
 #: View/Blends/view.ctp:103 View/Elements/bars/request_actions.ctp:50
 #: View/Requests/view.ctp:106 View/Users/view.ctp:71
@@ -2221,47 +2158,40 @@ msgid "Collect"
 msgstr "Сакупи"
 
 #: View/Blends/view.ctp:232
-#, fuzzy
 msgid "This blend is a response to:"
-msgstr "Ова blend датотека је линценцирана"
+msgstr "Овај blend рад је одговор на:"
 
 #: View/Blends/rss/index.ctp:4
-#, fuzzy
 msgid "Newest Blends"
-msgstr "Нови Blend"
+msgstr "Новији Blend радови"
 
 #: View/Blends/rss/index.ctp:6 View/Blends/rss/staffpicks.ctp:6
-#, fuzzy
 msgid "The latest blends on Blend Swap."
-msgstr "Недавно додате blend датотеке на Blend Swap-у."
+msgstr "Недавно додати blend радови на Blend Swap-у."
 
 #: View/Blends/rss/staffpicks.ctp:4
 msgid "Newest Staff Picked Blends"
-msgstr ""
+msgstr "Најновији радови по одабиру уредника"
 
 #: View/Collections/index.ctp:12 View/Collections/user.ctp:20
-#, fuzzy
 msgid "items"
-msgstr "Листа артикала"
+msgstr "ставке"
 
 #: View/Collections/index.ctp:21 View/Collections/user.ctp:29
-#, fuzzy
 msgid "Edit Collection"
-msgstr "Листа колекција"
+msgstr "Измени колекцију"
 
 #: View/Collections/index.ctp:22 View/Collections/user.ctp:30
-#, fuzzy
 msgid "Delete Collection"
-msgstr "Нова колекција"
+msgstr "Избриши колекцију"
 
 #: View/Collections/likes.ctp:7 View/Elements/user_nav_bar.ctp:15
 msgid "%s's likes"
-msgstr ""
+msgstr "%s се свиђа"
 
 #: View/Collections/user.ctp:7 View/Elements/user_nav_bar.ctp:19
-#, fuzzy
 msgid "%s's collections"
-msgstr "Листа колекција"
+msgstr "%s колекције"
 
 #: View/Comments/admin_edit.ctp:4 View/Comments/admin_view.ctp:84
 #: View/Feedbacks/admin_edit.ctp:5 View/Feedbacks/admin_view.ctp:89
@@ -2289,13 +2219,12 @@ msgid "Delete Comment"
 msgstr "Обриши коментар"
 
 #: View/Comments/rss/globalfeed.ctp:4
-#, fuzzy
 msgid "Newest Comments"
-msgstr "Нови коментар"
+msgstr "Новији коментари"
 
 #: View/Comments/rss/globalfeed.ctp:6
 msgid "The latest comments on Comment Swap."
-msgstr ""
+msgstr "Последњи коментари."
 
 #: View/Contacts/admin_edit.ctp:4 View/Contacts/admin_view.ctp:89
 msgid "Edit Contact"
@@ -2331,9 +2260,8 @@ msgid "Messages"
 msgstr "Поруке"
 
 #: View/Conversations/index.ctp:1
-#, fuzzy
 msgid "conversations"
-msgstr "Преводи"
+msgstr "разговори"
 
 #: View/Downloads/admin_index.ctp:48
 msgid "New Download"
@@ -2348,21 +2276,18 @@ msgid "Not counted"
 msgstr "Није избројано"
 
 #: View/Downloads/user.ctp:25
-#, fuzzy
 msgid ""
 "Page {:page} of {:pages}, showing {:current} downloads out of {:count} total."
 msgstr ""
-"Страна {:page} од {:pages}, приказано {:current} од укупно {:count} blend "
-"датотека."
+"Страна {:page} од {:pages}, приказано {:current} преузимања од укупно {:count}."
 
 #: View/Elements/blend_status.ctp:5
-#, fuzzy
 msgid "This blend is incomplete!!!"
-msgstr "Ова blend датотека је линценцирана"
+msgstr "Овај blend рад није потпун!!!"
 
 #: View/Elements/blend_status.ctp:6
 msgid " please upload the missing files"
-msgstr ""
+msgstr " молим пошаљите датотеке које недостају"
 
 #: View/Elements/blend_status.ctp:10
 msgid ""
@@ -2372,15 +2297,13 @@ msgid ""
 msgstr ""
 
 #: View/Elements/blend_status.ctp:11
-#, fuzzy
 msgid "Do you want to be a %s?"
-msgstr "Сигуран си да желиш да обришеш # %s?"
+msgstr "Да ли желите да будете %s?"
 
 # Top Uploaders - Najveći dodavači ???
 #: View/Elements/blend_status.ctp:11
-#, fuzzy
 msgid "Trusted Uploader"
-msgstr "Нај додавачи"
+msgstr "Додавачи од поверења"
 
 #: View/Elements/blend_status.ctp:15
 msgid ""
@@ -2389,9 +2312,8 @@ msgid ""
 msgstr ""
 
 #: View/Elements/blend_status.ctp:21
-#, fuzzy
 msgid "This blend was rejected"
-msgstr "Ова blend датотека је одбијена дана "
+msgstr "Овај blend рад је одбијен"
 
 #: View/Elements/blend_status.ctp:24
 msgid ""
@@ -2400,36 +2322,32 @@ msgid ""
 msgstr ""
 
 #: View/Elements/blend_status.ctp:25
-#, fuzzy
 msgid "Resubmit for review"
-msgstr "Преглед рендеринга"
+msgstr "Пошаљите поново на преглед"
 
 #: View/Elements/blend_status.ctp:33
-#, fuzzy
 msgid "This blend is offline right now."
-msgstr "Ова blend датотека је линценцирана"
+msgstr "Ова blend рад тренутно није доступан."
 
 #: View/Elements/commentList.ctp:26
 msgid "No more comments or answers are allowed in this thread..."
-msgstr ""
+msgstr "У овој теми није дозвољено више коментара нити одговора..."
 
 #: View/Elements/frontend_footer.ctp:6
 msgid "Site"
 msgstr "Сајт"
 
 #: View/Elements/frontend_footer.ctp:7
-#, fuzzy
 msgid "Services"
-msgstr "Услуга"
+msgstr "Услуге"
 
 #: View/Elements/frontend_footer.ctp:8
 msgid "Accounts"
 msgstr "Налози"
 
 #: View/Elements/frontend_footer.ctp:9
-#, fuzzy
 msgid "Blender"
-msgstr "Blend"
+msgstr "Blender"
 
 #: View/Elements/frontend_footer.ctp:10
 msgid "Support"
@@ -2472,9 +2390,8 @@ msgid "All Blends"
 msgstr "Сви Blend радови"
 
 #: View/Elements/frontend_footer.ctp:40
-#, fuzzy
 msgid "Blend Requests"
-msgstr "Затворени захтеви"
+msgstr "Blend захтеви"
 
 #: View/Elements/frontend_footer.ctp:43 View/Elements/menus/topMenu.ctp:128
 msgid "Blend Collections"
@@ -2734,40 +2651,36 @@ msgid "Cartoony"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:42
-#, fuzzy
 msgid "Render Engine"
-msgstr "Преглед рендеринга"
+msgstr "Механизам рендеринга"
 
 #: View/Elements/placeholder.ctp:43
 msgid "Cycles Ready"
-msgstr ""
+msgstr "Погодно за Cycles"
 
 #: View/Elements/placeholder.ctp:44
-#, fuzzy
 msgid "Blender Internal"
-msgstr "Верзија Blender-а"
+msgstr "Blender рендеринг"
 
 #: View/Elements/placeholder.ctp:45
 msgid "External"
-msgstr ""
+msgstr "Спољни"
 
 #: View/Elements/placeholder.ctp:46
 msgid "Freestyle"
-msgstr ""
+msgstr "Слободоручни"
 
 #: View/Elements/placeholder.ctp:47
-#, fuzzy
 msgid "Other Requirements"
-msgstr "Услови"
+msgstr "Остали захтеви"
 
 #: View/Elements/placeholder.ctp:48
-#, fuzzy
 msgid "Animated"
-msgstr "Анимације"
+msgstr "Анимирано"
 
 #: View/Elements/placeholder.ctp:49
 msgid "UV Unwrapped"
-msgstr ""
+msgstr "UV растворено"
 
 #: View/Elements/placeholder.ctp:50
 msgid "Unapplied Multires"
@@ -2779,47 +2692,43 @@ msgstr ""
 
 #: View/Elements/placeholder.ctp:52
 msgid "Quads Only"
-msgstr ""
+msgstr "Само четвороуглови"
 
 #: View/Elements/placeholder.ctp:53
 msgid "Rigged"
-msgstr ""
+msgstr "Роговано"
 
 #: View/Elements/placeholder.ctp:54
-#, fuzzy
 msgid "Polygon Count"
-msgstr "Полигона"
+msgstr "Број полигона"
 
 #: View/Elements/placeholder.ctp:55
 msgid "High-Poly"
-msgstr ""
+msgstr "Велики број страница"
 
 #: View/Elements/placeholder.ctp:56
 msgid "Mid-Poly"
-msgstr ""
+msgstr "Средњи број страница"
 
 #: View/Elements/placeholder.ctp:57
-#, fuzzy
 msgid "Low-Poly"
-msgstr "Мали бр. страна"
+msgstr "Мали број страница"
 
 #: View/Elements/placeholder.ctp:58
-#, fuzzy
 msgid "Texturing Depth"
-msgstr "Текстуре"
+msgstr "Дубина текстуре"
 
 #: View/Elements/placeholder.ctp:59
 msgid "Full Pass Textured"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:60
-#, fuzzy
 msgid "Image Textured"
-msgstr "Текстуре"
+msgstr "Слика текстуре"
 
 #: View/Elements/placeholder.ctp:61
 msgid "Procedural Textured"
-msgstr ""
+msgstr "Генеричке текстуре"
 
 #: View/Elements/placeholder.ctp:62
 msgid "Baked Normals"
@@ -2887,14 +2796,12 @@ msgid "Answers"
 msgstr "Одговор(и)а"
 
 #: View/Elements/placeholder.ctp:86
-#, fuzzy
 msgid "image"
-msgstr "Слика"
+msgstr "слика"
 
 #: View/Elements/placeholder.ctp:87
-#, fuzzy
 msgid "blend"
-msgstr "Blend"
+msgstr "blend"
 
 #: View/Elements/placeholder.ctp:89
 msgid "Open"
@@ -2994,33 +2901,28 @@ msgid "License updated correctly"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:116
-#, fuzzy
 msgid "Error when updating the license file"
-msgstr "Грешка приликом креирања колекције"
+msgstr "Грешка приликом освежавања датотеке лиценце"
 
 #: View/Elements/placeholder.ctp:117
 msgid "Impossible to form license file name, no object was passed"
 msgstr ""
 
 #: View/Elements/previewBox.ctp:5
-#, fuzzy
 msgid "This blend is a Staff Pick!"
-msgstr "Мој blend је додат у одабир уредника"
+msgstr "Овај blend је одабрао уредник!"
 
 #: View/Elements/previewBox.ctp:9
-#, fuzzy
 msgid "Preview 1"
-msgstr "УРЛ за приказ у 3Д"
+msgstr "Преглед 1"
 
 #: View/Elements/user_nav_bar.ctp:6
-#, fuzzy
 msgid "%s's profile"
-msgstr "Листа профила"
+msgstr "%s профила"
 
 #: View/Elements/user_nav_bar.ctp:23 View/Subs/user.ctp:7
-#, fuzzy
 msgid "%s's followers"
-msgstr "Пратиоци"
+msgstr "%s пратиоци"
 
 # Like
 #: View/Elements/bars/blend_actions.ctp:6
@@ -3033,11 +2935,11 @@ msgstr "Додај у"
 
 #: View/Elements/bars/blend_actions.ctp:15
 msgid "Share this"
-msgstr "Подијели ово"
+msgstr "Подели ово"
 
 #: View/Elements/bars/blend_actions.ctp:16
 msgid "Share"
-msgstr "Подијели"
+msgstr "Подели"
 
 #: View/Elements/bars/blend_actions.ctp:44
 msgid "Report an infraction on this blend."
@@ -3114,9 +3016,8 @@ msgid ""
 msgstr "%s који садрже псовке ће бити уклоњени. Пријавите непожељно."
 
 #: View/Elements/forms/commentForm.ctp:6 View/Messages/conversation.ctp:35
-#, fuzzy
 msgid "You can use %s"
-msgstr "Ваше корисничко име је %s"
+msgstr "Можете користити %s"
 
 #: View/Elements/forms/commentForm.ctp:24
 msgid "You must log in to leave a comment"
@@ -3132,16 +3033,14 @@ msgid "Dashboard"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:19
-#, fuzzy
 msgid "News Blog"
-msgstr "Вести са блога"
+msgstr "Блог вести"
 
 #: View/Elements/menus/topMenu.ctp:23 View/Pages/gethelp.ctp:27;125
 msgid "Contact us"
-msgstr "Контакт"
+msgstr "Контактирајте нас"
 
 #: View/Elements/menus/topMenu.ctp:38 View/Pages/status.ctp:1;4;13
-#, fuzzy
 msgid "Site Status"
 msgstr "Статус сајта"
 
@@ -3174,14 +3073,12 @@ msgid "Filter Blends"
 msgstr "Филтрирај blend радове"
 
 #: View/Elements/menus/topMenu.ctp:80;82;85;87;90;92;95;97
-#, fuzzy
 msgid "Only %s Blends"
-msgstr "Само CC-BY blend радови"
+msgstr "Само %s blend радови"
 
 #: View/Elements/menus/topMenu.ctp:101;106;111
-#, fuzzy
 msgid "Made with Blender %s"
-msgstr "Направљено у Blendер-у 2.49"
+msgstr "Направљено у Blendер-у %s"
 
 #: View/Elements/menus/topMenu.ctp:103
 msgid "Made with Blender 2.49"
@@ -3198,9 +3095,8 @@ msgstr "Направљено у Blendер-у 2.6x"
 # User index - stranica korisnika ???
 # User index - početna stranica korisnika ???
 #: View/Elements/menus/topMenu.ctp:119
-#, fuzzy
 msgid "More Indexes"
-msgstr "Индекс корисника"
+msgstr "Више индекса"
 
 #: View/Elements/menus/topMenu.ctp:125
 msgid "Blends selected by the admins."
@@ -3242,7 +3138,7 @@ msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:151;153;195;197;224;226
 msgid "RSS Feed"
-msgstr "РСС извор"
+msgstr "RSS извор"
 
 #: View/Elements/menus/topMenu.ctp:160;168 View/Pages/status.ctp:57
 #: View/Users/bandwidth.ctp:29
@@ -3266,13 +3162,12 @@ msgid "Requests Main Index"
 msgstr "Захтеви главна страница"
 
 #: View/Elements/menus/topMenu.ctp:178 View/Users/bandwidth.ctp:30
-#, fuzzy
 msgid "Weekend Challenges"
-msgstr "Сачувај измене"
+msgstr "Недељни изазов"
 
 #: View/Elements/menus/topMenu.ctp:180
 msgid "See all Weekend Challenges"
-msgstr ""
+msgstr "Погледајте све недељне изазове"
 
 #: View/Elements/menus/topMenu.ctp:184
 msgid "Open Requests"
@@ -3327,16 +3222,15 @@ msgstr "Претрага"
 
 #: View/Elements/menus/topMenu.ctp:276;287
 msgid "Get help"
-msgstr "Затражи помоћ"
+msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:279
-#, fuzzy
 msgid "Get Help"
-msgstr "Помоћ"
+msgstr "Потражите помоћ"
 
 #: View/Elements/menus/topMenu.ctp:281
 msgid "All site documentation"
-msgstr "Документација сајта"
+msgstr "Сва документација сајта"
 
 #: View/Elements/menus/topMenu.ctp:285
 msgid "All Documentation"
@@ -3347,13 +3241,12 @@ msgid "Known issues"
 msgstr "Познати проблеми"
 
 #: View/Elements/menus/topMenu.ctp:302
-#, fuzzy
 msgid "Contact Blend Swap"
-msgstr "Контакт обрисан"
+msgstr "Контактирајте Blend Swap"
 
 #: View/Elements/menus/topMenu.ctp:304
 msgid "Contact the Blend Swap admins"
-msgstr ""
+msgstr "Контактирајте Blend Swap администраторе"
 
 #: View/Elements/menus/topMenu.ctp:320
 msgid "Me"
@@ -3383,22 +3276,19 @@ msgid "Remaining"
 msgstr "Преостало"
 
 #: View/Elements/menus/topMenu.ctp:353
-#, fuzzy
 msgid "Initialized on"
 msgstr "Започет"
 
 #: View/Elements/menus/topMenu.ctp:359
-#, fuzzy
 msgid "Resets on"
-msgstr "Ресетуј лозинку"
+msgstr "Ресетован"
 
 # Nadogradi, dodaj još protoka
 #: View/Elements/menus/topMenu.ctp:372
 #: View/Elements/nags/become_associate.ctp:17
 #: View/Elements/navs/usernav.ctp:219 View/Memberships/manage.ctp:110
-#, fuzzy
 msgid "Upgrade Now!"
-msgstr "Надогради"
+msgstr "Надогради сад!"
 
 #: View/Elements/menus/topMenu.ctp:374
 msgid "Upgrade to an Associate or Deadline Membership now!"
@@ -3415,18 +3305,16 @@ msgid "Manage Membership"
 msgstr "Измена чланства"
 
 #: View/Elements/menus/topMenu.ctp:383
-#, fuzzy
 msgid "Manage my membership"
-msgstr "Измена чланства"
+msgstr "Управљај мојим чланством"
 
 #: View/Elements/menus/topMenu.ctp:390 View/Users/view.ctp:72
 msgid "Account & Settings"
 msgstr "Налог & подешавања"
 
 #: View/Elements/menus/topMenu.ctp:392
-#, fuzzy
 msgid "Edit my account and settings."
-msgstr "Налог и подешавања"
+msgstr "Измени мој налог и подешавања."
 
 #: View/Elements/menus/topMenu.ctp:399;401 View/Elements/navs/usernav.ctp:97
 msgid "My Blends"
@@ -3481,69 +3369,60 @@ msgid "Edit Portfolio"
 msgstr "Измена портфолија"
 
 #: View/Elements/navs/usernav.ctp:167
-#, fuzzy
 msgid "Account &amp; Settings"
-msgstr "Налог & подешавања"
+msgstr "Налог &amp; подешавања"
 
 #: View/Elements/navs/usernav.ctp:184 View/Users/view.ctp:77
 msgid "Change Password"
 msgstr "Измени лозинку"
 
 #: View/Events/admin_add.ctp:4
-#, fuzzy
 msgid "Admin Add Event"
-msgstr "Админ додавање blend датотеке"
+msgstr "Админ додавање догађаја"
 
 #: View/Events/admin_edit.ctp:4
-#, fuzzy
 msgid "Admin Edit Event"
-msgstr "Админ измена blend датотеке"
+msgstr "Админ измена догађаја"
 
 #: View/Events/admin_index.ctp:2
 msgid "Events"
-msgstr "Догађаји"
+msgstr ""
 
 #: View/Events/admin_index.ctp:54 View/Events/admin_view.ctp:77
-#, fuzzy
 msgid "New Event"
-msgstr "Нова мета"
+msgstr "Нови догађај"
 
 #: View/Events/admin_view.ctp:2
 msgid "Event"
 msgstr "Догађај"
 
 #: View/Events/admin_view.ctp:24
-#, fuzzy
 msgid "Data"
-msgstr "Измени податке"
+msgstr "Подаци"
 
 #: View/Events/admin_view.ctp:29
-#, fuzzy
 msgid "Feed Id"
-msgstr "Бр. blend датотеке"
+msgstr ""
 
 #: View/Events/admin_view.ctp:39
 msgid "Href"
 msgstr ""
 
 #: View/Events/admin_view.ctp:59
-#, fuzzy
 msgid "Object Name"
-msgstr "Бр. објекта"
+msgstr "Име објекта"
 
 #: View/Events/admin_view.ctp:64
 msgid "Img"
 msgstr "Сл."
 
 #: View/Events/admin_view.ctp:74
-#, fuzzy
 msgid "Edit Event"
-msgstr "Измени кометар"
+msgstr "Измени догађај"
 
 #: View/Events/admin_view.ctp:75
-#, fuzzy
 msgid "Delete Event"
-msgstr "Обриши коментар"
+msgstr "Обриши догађај"
 
 #: View/Events/index.ctp:40
 msgid "Not much around here?"
@@ -3559,46 +3438,38 @@ msgid "How does the dashboard work?"
 msgstr ""
 
 #: View/Features/admin_add.ctp:4
-#, fuzzy
 msgid "Admin Add Feature"
-msgstr "Админ додавање корисника"
+msgstr "Админ истицање"
 
 #: View/Features/admin_add.ctp:17 View/Features/admin_edit.ctp:19
 #: View/Features/admin_view.ctp:36
-#, fuzzy
 msgid "List Features"
-msgstr "Мета листа"
+msgstr "Листа истакнутих"
 
 #: View/Features/admin_edit.ctp:4
-#, fuzzy
 msgid "Admin Edit Feature"
-msgstr "Админ измена корисника"
+msgstr "Админ измена истицања"
 
 #: View/Features/admin_index.ctp:2
-#, fuzzy
 msgid "Features"
-msgstr "Текстуре"
+msgstr "Истицања"
 
 # termrel ???
 #: View/Features/admin_index.ctp:49 View/Features/admin_view.ctp:37
-#, fuzzy
 msgid "New Feature"
-msgstr "Нови термрел"
+msgstr "Истакни ново"
 
 #: View/Features/admin_view.ctp:2
-#, fuzzy
 msgid "Feature"
-msgstr "Текстуре"
+msgstr "Истакнуто"
 
 #: View/Features/admin_view.ctp:34
-#, fuzzy
 msgid "Edit Feature"
-msgstr "Измени датум"
+msgstr "Измени истакнуто"
 
 #: View/Features/admin_view.ctp:35
-#, fuzzy
 msgid "Delete Feature"
-msgstr "Обриши корисника"
+msgstr "Обриши истакнуто"
 
 #: View/Feedbacks/add.ctp:4
 msgid "Add Comment"
@@ -3606,7 +3477,7 @@ msgstr "Додај коментар"
 
 #: View/Helper/CommentListHelper.php:63
 msgid "best answer so far"
-msgstr ""
+msgstr "за сад најбољи одговор"
 
 #: View/Helper/CommentListHelper.php:79 View/Messages/conversation.ctp:35
 msgid "Reply"
@@ -3614,11 +3485,11 @@ msgstr "Одговори"
 
 #: View/Helper/CommentListHelper.php:133 View/Questions/view.ctp:18
 msgid "Vote up"
-msgstr ""
+msgstr "Гласај за"
 
 #: View/Helper/CommentListHelper.php:139 View/Questions/view.ctp:24
 msgid "Vote down"
-msgstr ""
+msgstr "Гласај против"
 
 #: View/Helper/DashboardHelper.php:67
 msgid "mentioned you on"
@@ -3695,16 +3566,14 @@ msgid "You will spend some of your extra bandwidth if you download this model."
 msgstr ""
 
 #: View/Helper/SingleBlendHelper.php:60
-#, fuzzy
 msgid ""
 "It looks like this blend is too big for your monthly bandwidth right now, "
 "you will have to try later."
 msgstr ""
-"Изгледа да је ова blend датотека превелика за твој одобрени овомесечни "
-"проток!"
+"Изгледа да је ова blend датотека превелика за твој преостали овомесечни "
+"проток, можете покушати поново касније."
 
 #: View/Helper/SingleBlendHelper.php:65
-#, fuzzy
 msgid "You have to log in to download this blend."
 msgstr "Морате бити пријављени да би преузели ову blend датотеку"
 
@@ -3717,7 +3586,6 @@ msgid "An error ocurred while reading this license."
 msgstr "Догодила се грешка приликом учитавања лиценце."
 
 #: View/Helper/SingleBlendHelper.php:177
-#, fuzzy
 msgid ""
 "It is recommended that you give credit to the author of this blend but "
 "there's no obligation to do so"
@@ -3738,9 +3606,8 @@ msgid "This blend is pending and is not accessible by normal users"
 msgstr "Ова blend датотека чека одобрење и није доступна обичним корисницима"
 
 #: View/Items/admin_add.ctp:4
-#, fuzzy
 msgid "Admin Add Item"
-msgstr "Админ додавање корисника"
+msgstr "Админ додавање ставке"
 
 #: View/Items/admin_add.ctp:21 View/Items/admin_edit.ctp:23
 #: View/Items/admin_index.ctp:55 View/Items/admin_view.ctp:50
@@ -3755,42 +3622,36 @@ msgid "New Collection"
 msgstr "Нова колекција"
 
 #: View/Items/admin_edit.ctp:4
-#, fuzzy
 msgid "Admin Edit Item"
-msgstr "Админ измена корисника"
+msgstr "Админ измена ставке"
 
 #: View/Items/admin_index.ctp:2
-#, fuzzy
 msgid "Items"
-msgstr "Листа артикала"
+msgstr "Ставке"
 
 #: View/Items/admin_index.ctp:38
-#, fuzzy
 msgid ""
 "Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
 "starting on record {:start}, ending on {:end}"
 msgstr ""
-"Страна {:page} од {:pages}, приказано {:current} од укупно {:count} blend "
-"датотека."
+"Страна {:page} од {:pages}, приказано {:current} уписа од укупно укупно {:count}, "
+"почев од {:start}, а завршно са {:end}."
 
 #: View/Items/admin_view.ctp:2
 msgid "Item"
 msgstr "Ставка"
 
 #: View/Items/admin_view.ctp:14
-#, fuzzy
 msgid "Collection"
 msgstr "Колекција"
 
 #: View/Items/admin_view.ctp:44
-#, fuzzy
 msgid "Edit Item"
-msgstr "Измени датум"
+msgstr "Измена ставке"
 
 #: View/Items/admin_view.ctp:45
-#, fuzzy
 msgid "Delete Item"
-msgstr "Обриши кључ"
+msgstr "Обриши ставку"
 
 # criteria
 #: View/Layouts/debugging.ctp:78 View/Layouts/frontend.ctp:86
@@ -3798,18 +3659,16 @@ msgid "Change your search criteria!"
 msgstr "Измена критеријума претраге!"
 
 #: View/Layouts/debugging.ctp:111 View/Layouts/frontend.ctp:119
-#, fuzzy
 msgid "No Fan Art"
-msgstr "Забавна умјетност"
+msgstr "Није забавна уметност"
 
 #: View/Layouts/debugging.ctp:134 View/Layouts/frontend.ctp:142
-#, fuzzy
 msgid "Documentation"
-msgstr "Сва документација"
+msgstr "Документација"
 
 #: View/Layouts/debugging.ctp:148 View/Layouts/frontend.ctp:156
 msgid "Sort items by..."
-msgstr ""
+msgstr "Поређај ставке по..."
 
 #: View/Limits/admin_add.ctp:4
 msgid "Add Limit"
@@ -3847,31 +3706,26 @@ msgstr "Лимит брисања"
 
 # Deadline
 #: View/Memberships/admin_add.ctp:4
-#, fuzzy
 msgid "Admin Add Membership"
-msgstr "Рок важења чланства"
+msgstr "Админ додавање чланства"
 
 # Associate Membership - dodijeli, idruži ???
 #: View/Memberships/admin_add.ctp:20 View/Memberships/admin_edit.ctp:22
 #: View/Memberships/admin_view.ctp:51
-#, fuzzy
 msgid "List Memberships"
-msgstr "Додели чланство"
+msgstr "Листа чланства"
 
 #: View/Memberships/admin_edit.ctp:4
-#, fuzzy
 msgid "Admin Edit Membership"
-msgstr "Админ измена корисника"
+msgstr "Админ измена чланства"
 
 #: View/Memberships/admin_index.ctp:2
-#, fuzzy
 msgid "Memberships"
-msgstr "Бесплатно чланство"
+msgstr "Чланства"
 
 #: View/Memberships/admin_view.ctp:2 View/Users/view.ctp:75
-#, fuzzy
 msgid "Membership"
-msgstr "Бесплатно чланство"
+msgstr "Чланство"
 
 #: View/Memberships/admin_view.ctp:19 View/Memberships/manage.ctp:57
 #: View/Users/bandwidth.ctp:66
@@ -3879,39 +3733,34 @@ msgid "Expires"
 msgstr "Истиче"
 
 #: View/Memberships/admin_view.ctp:29
-#, fuzzy
 msgid "Plan Id"
-msgstr "План је обрисан"
+msgstr "Бр. плана"
 
 #: View/Memberships/admin_view.ctp:34
 msgid "Method"
-msgstr ""
+msgstr "Метода"
 
 # Deadline
 #: View/Memberships/admin_view.ctp:49
-#, fuzzy
 msgid "Edit Membership"
-msgstr "Рок важења чланства"
+msgstr "Измена чланства"
 
 # Deadline
 #: View/Memberships/admin_view.ctp:50
-#, fuzzy
 msgid "Delete Membership"
-msgstr "Рок важења чланства"
+msgstr "Избриши чланство"
 
 #: View/Memberships/admin_view.ctp:52
-#, fuzzy
 msgid "New Membership"
-msgstr "Бесплатно чланство"
+msgstr "Ново чланство"
 
 #: View/Memberships/manage.ctp:5
-#, fuzzy
 msgid "Manage membership"
-msgstr "Измена чланства"
+msgstr "Управљај чланством"
 
 #: View/Memberships/manage.ctp:8
 msgid "You currently have a %s membership attached to your account"
-msgstr ""
+msgstr "Тренутно имате %s чланства придружених вашем налогу"
 
 #: View/Memberships/manage.ctp:26
 msgid ""
@@ -3920,9 +3769,8 @@ msgid ""
 msgstr ""
 
 #: View/Memberships/manage.ctp:33
-#, fuzzy
 msgid "Created on"
-msgstr "Креиран"
+msgstr "Направљен"
 
 #: View/Memberships/manage.ctp:39
 msgid ""
@@ -3938,23 +3786,20 @@ msgstr ""
 
 #: View/Memberships/manage.ctp:42 View/Pages/gethelp.ctp:40
 #: View/Questions/add.ctp:36 View/Users/freeze.ctp:30
-#, fuzzy
 msgid "contact us"
-msgstr "Контакт"
+msgstr "контактирај нас"
 
 #: View/Memberships/manage.ctp:49
-#, fuzzy
 msgid "Last modified on"
-msgstr "Тем. измењено"
+msgstr "Задња измена"
 
 #: View/Memberships/manage.ctp:66
-#, fuzzy
 msgid "Remember"
-msgstr "Децембар"
+msgstr "Памти"
 
 #: View/Memberships/manage.ctp:67
 msgid "Paid memberships are disabled from %s"
-msgstr ""
+msgstr "Плаћено чланство је онемогућено од %s"
 
 #: View/Memberships/manage.ctp:68
 msgid ""
@@ -3964,12 +3809,11 @@ msgstr ""
 
 #: View/Memberships/manage.ctp:69
 msgid "Show me how"
-msgstr "Прикажи како"
+msgstr "Покажи како"
 
 #: View/Memberships/manage.ctp:74
-#, fuzzy
 msgid "Payments log"
-msgstr "Плаћање обрисано"
+msgstr "Преглед плаћања"
 
 #: View/Memberships/manage.ctp:98
 msgid "yes"
@@ -3977,7 +3821,7 @@ msgstr "да"
 
 #: View/Memberships/manage.ctp:98
 msgid "no"
-msgstr "без"
+msgstr "не"
 
 #: View/Memberships/manage.ctp:107
 msgid ""
@@ -3996,35 +3840,31 @@ msgstr "Листа порука"
 
 #: View/Messages/conversation.ctp:8
 msgid "with"
-msgstr "ширина"
+msgstr "са"
 
 #: View/Messages/conversation.ctp:23
-#, fuzzy
 msgid "The message will be deleted, are you sure?"
-msgstr "Овај blend захтев ће бити затворен за нове одговоре. Да ли си сигуран?"
+msgstr "Овај порука ће бити избрисана. Да ли си сигуран?"
 
 #: View/Messages/edit.ctp:4
 msgid "Edit Message"
 msgstr "Измени поруку"
 
 #: View/Messages/index.ctp:24
-#, fuzzy
 msgid "Last message sent by %s"
-msgstr "Листа порука"
+msgstr "Последња порука послата од %s"
 
 #: View/News/admin_index.ctp:3
 msgid "News"
-msgstr "Вести"
+msgstr "Новости"
 
 #: View/News/rss/index.ctp:4
-#, fuzzy
 msgid "News Updates"
-msgstr "Вест је обрисана"
+msgstr "Најновије новости"
 
 #: View/News/rss/index.ctp:6
-#, fuzzy
 msgid "The latest news updates on Blend Swap."
-msgstr "Овај корисник непостоји на Blend Swap-у."
+msgstr "Најновије новости са Blend Swap-а."
 
 #: View/Options/admin_add.ctp:4
 msgid "Add Option"
@@ -4098,9 +3938,8 @@ msgstr ""
 #: View/Pages/gethelp.ctp:12;25;38;50;63;74;85;98;113;124
 #: View/Questions/add.ctp:15;29;47 View/Reports/blend.ctp:18;31;75
 #: View/Reports/index.ctp:18;31;45
-#, fuzzy
 msgid "Solution"
-msgstr "Колекција"
+msgstr "Решење"
 
 #: View/Pages/gethelp.ctp:13
 msgid ""
@@ -4134,9 +3973,8 @@ msgid ""
 msgstr ""
 
 #: View/Pages/gethelp.ctp:27 View/Users/login.ctp:29
-#, fuzzy
 msgid "reset your password"
-msgstr "Заборавили сте лозинку?"
+msgstr "ресетуј своју лозинку"
 
 #: View/Pages/gethelp.ctp:35
 msgid "I need help using a Blend Swap feature"
@@ -4147,9 +3985,8 @@ msgid "Please scout the %s, most questions are answered there."
 msgstr ""
 
 #: View/Pages/gethelp.ctp:39
-#, fuzzy
 msgid "site documentation"
-msgstr "Документација сајта"
+msgstr "документација сајта"
 
 #: View/Pages/gethelp.ctp:40
 msgid ""
@@ -4158,36 +3995,32 @@ msgid ""
 msgstr ""
 
 #: View/Pages/gethelp.ctp:47
-#, fuzzy
 msgid "I need help using Blender 3D"
-msgstr "Требате помоћ око blendер(а)?"
+msgstr "Треба ми помоћ око Blendер-а 3D"
 
 #: View/Pages/gethelp.ctp:52
-#, fuzzy
 msgid "Ask a %s on the Questions section."
-msgstr "Постави питање!"
+msgstr "Питај %s у одељку за питања."
 
 #: View/Pages/gethelp.ctp:52
-#, fuzzy
 msgid "new question"
-msgstr "Ново питање"
+msgstr "ново питање"
 
 #: View/Pages/gethelp.ctp:60
 msgid "I need information about Licenses"
-msgstr ""
+msgstr "Треба ми информација везано за лиценце"
 
 #: View/Pages/gethelp.ctp:64
 msgid "Please look at our %s page for full info and explanations"
-msgstr ""
+msgstr "Погледајте на нашој %s страни за информације и комплетно објашњење."
 
 #: View/Pages/gethelp.ctp:64
-#, fuzzy
 msgid "licenses"
-msgstr "Лиценца"
+msgstr "лиценце"
 
 #: View/Pages/gethelp.ctp:71
 msgid "I can not download any file from Blend Swap"
-msgstr ""
+msgstr "Не могу да преузмем ни једну датотеку са Blend Swap-а"
 
 #: View/Pages/gethelp.ctp:75 View/Reports/blend.ctp:33
 msgid ""
@@ -4196,9 +4029,8 @@ msgid ""
 msgstr ""
 
 #: View/Pages/gethelp.ctp:75 View/Reports/blend.ctp:34
-#, fuzzy
 msgid "known issues"
-msgstr "Познати проблеми"
+msgstr "познати проблеми"
 
 #: View/Pages/gethelp.ctp:82
 msgid "I can not upload my blend file to Blend Swap (404 error)"
@@ -4258,7 +4090,7 @@ msgstr ""
 
 #: View/Pages/gethelp.ctp:114
 msgid "here"
-msgstr "овде"
+msgstr ""
 
 #: View/Pages/gethelp.ctp:121
 msgid "I need to get in touch with the Blend Swap owner or admins"
@@ -4269,30 +4101,25 @@ msgid "%s any time with your questions, comments and suggestions"
 msgstr ""
 
 #: View/Pages/status.ctp:18
-#, fuzzy
 msgid "Blend Swap version"
-msgstr "Blend Swap питања"
+msgstr "Верзија Blend Swap-а"
 
 #: View/Pages/status.ctp:24
-#, fuzzy
 msgid "Blend Uploads"
-msgstr "Бр. blend датотеке"
+msgstr "Слања blend радова"
 
 #: View/Pages/status.ctp:30
-#, fuzzy
 msgid "Registration"
-msgstr "Региструј се"
+msgstr "Регистрација"
 
 #: View/Pages/status.ctp:63
-#, fuzzy
 msgid "Served Downloads"
-msgstr "Преузимања"
+msgstr "Доступна преузимања"
 
 # Associates - saradnici, označeni
 #: View/Pages/status.ctp:69
-#, fuzzy
 msgid "Active Accounts"
-msgstr "Сараднички налог"
+msgstr "Активни налози"
 
 #: View/Pages/welcome.ctp:2
 msgid "Welcome!"
@@ -4300,7 +4127,7 @@ msgstr "Добро дошли!"
 
 #: View/Pages/welcome.ctp:132
 msgid "Why are you not logged in yet?"
-msgstr ""
+msgstr "Зашто се још нисте пријавили?"
 
 #: View/Profiles/admin_add.ctp:4
 msgid "Admin Add Profile"
@@ -4366,14 +4193,12 @@ msgid ""
 msgstr ""
 
 #: View/Questions/add.ctp:18
-#, fuzzy
 msgid "bug report"
-msgstr "Извештај"
+msgstr "извештај о грешци"
 
 #: View/Questions/add.ctp:26
-#, fuzzy
 msgid "I need help with a Blend Swap feature"
-msgstr "Требате помоћ око blendер(а)?"
+msgstr "Потребна ми је помоћ око мBlend Swap огућности"
 
 #: View/Questions/add.ctp:31
 msgid ""
@@ -4382,9 +4207,8 @@ msgid ""
 msgstr ""
 
 #: View/Questions/add.ctp:32
-#, fuzzy
 msgid "full documentation"
-msgstr "Сва документација"
+msgstr "сва документација"
 
 #: View/Questions/add.ctp:35
 msgid ""
@@ -4411,14 +4235,12 @@ msgid "To contact with Blend Swap's staff send them a message from the %s form"
 msgstr ""
 
 #: View/Questions/add.ctp:56;72
-#, fuzzy
 msgid "contact"
-msgstr "Контакт"
+msgstr "контакт"
 
 #: View/Questions/add.ctp:64
-#, fuzzy
 msgid "I need help using Blender"
-msgstr "Требате помоћ око blendер(а)?"
+msgstr "Потребна ми је помоћ за коришћење Blendер-а"
 
 #: View/Questions/add.ctp:67
 msgid "Open a new question to get help on how to use Blender"
@@ -4431,9 +4253,8 @@ msgid ""
 msgstr ""
 
 #: View/Questions/add.ctp:73
-#, fuzzy
 msgid "bug reports"
-msgstr "Извештаји"
+msgstr "извештаји о грешкама"
 
 #: View/Questions/add.ctp:75
 msgid "Questions that are too off topic may be closed or deleted from the site"
@@ -4469,38 +4290,36 @@ msgid "asked"
 msgstr ""
 
 #: View/Questions/index.ctp:60 View/Questions/view.ctp:86
-#, fuzzy
 msgid "Do you need help with a Blender feature?"
-msgstr "Требате помоћ око blendер(а)?"
+msgstr "Да ли вам је потребна помоћ око могућности Blender-а?"
 
 #: View/Questions/index.ctp:62 View/Questions/view.ctp:88
-#, fuzzy
 msgid "Ask a new question!"
-msgstr "Постави питање!"
+msgstr "Постави ново питање!"
 
 #: View/Questions/view.ctp:30
 msgid "asked on "
-msgstr ""
+msgstr "поставио"
 
 #: View/Questions/view.ctp:39
 msgid "Mark as Solved"
-msgstr "Означи као решено"
+msgstr "Означено као решено"
 
 #: View/Questions/view.ctp:39;43
-#, fuzzy
 msgid ""
 "The question will be marked as %s.\n"
 "Are you sure?"
-msgstr "Овај blend захтев ће бити затворен за нове одговоре. Да ли си сигуран?"
+msgstr ""
+"Ово питање ће бити означено као %s.\n"
+"Да ли си сигуран?"
 
 #: View/Questions/view.ctp:39
 msgid "SOLVED"
-msgstr "РЕШЕНО"
+msgstr "Решено"
 
 #: View/Questions/view.ctp:41
-#, fuzzy
 msgid "The question will be deleted forever, are you sure?"
-msgstr "Овај blend захтев ће бити затворен за нове одговоре. Да ли си сигуран?"
+msgstr "Овај питање ће бити заувек избрисано. Да ли си сигуран?"
 
 #: View/Questions/view.ctp:43
 msgid "Mark as Open"
@@ -4508,17 +4327,15 @@ msgstr "Означи као отворено"
 
 #: View/Questions/view.ctp:43
 msgid "OPEN"
-msgstr "ОТВОРЕНО"
+msgstr "Отворено"
 
 #: View/Questions/rss/index.ctp:4
-#, fuzzy
 msgid "Newest Questions"
-msgstr "Ново питање"
+msgstr "Нова питања"
 
 #: View/Questions/rss/index.ctp:6
-#, fuzzy
 msgid "The latest Questions on Blend Swap."
-msgstr "Недавна питања на Blend Swap-у."
+msgstr "Последња питања на Blend Swap-у."
 
 #: View/Reports/__add.ctp:4
 msgid "Add Report"
@@ -4570,9 +4387,8 @@ msgid "I need help with how to use this blend in Blender"
 msgstr ""
 
 #: View/Reports/blend.ctp:45
-#, fuzzy
 msgid "Blender usage"
-msgstr "Blend страница"
+msgstr "Коришћење Blender-а"
 
 #: View/Reports/blend.ctp:47
 msgid ""
@@ -4679,7 +4495,7 @@ msgstr ""
 
 #: View/Reports/index.ctp:42
 msgid "Label"
-msgstr "Ознака"
+msgstr ""
 
 #: View/Reports/view.ctp:24
 msgid "Reason"
@@ -4714,18 +4530,16 @@ msgid ""
 msgstr ""
 
 #: View/Requests/add.ctp:12
-#, fuzzy
 msgid "your profile"
-msgstr "Мој профил"
+msgstr "ваш профил"
 
 #: View/Requests/add.ctp:13
 msgid "If the error persists please %s."
-msgstr ""
+msgstr "Ако се проблем понови %s."
 
 #: View/Requests/add.ctp:13
-#, fuzzy
 msgid "report it"
-msgstr "Извештај"
+msgstr "пријавите га"
 
 #: View/Requests/add.ctp:18
 msgid "Sorry, you opened another Request in the last month"
@@ -4756,31 +4570,28 @@ msgstr ""
 # Nadogradi, dodaj još protoka
 #: View/Requests/add.ctp:31
 msgid "upgrade"
-msgstr "унапреди"
+msgstr "надогради"
 
 # Nadogradi, dodaj još protoka
 #: View/Requests/add.ctp:36
 msgid "Upgrade now!"
-msgstr "Унапреди сад!"
+msgstr "Надогради сад!"
 
 #: View/Requests/add.ctp:70
 msgid "Request a Blend"
 msgstr "Blend захтев"
 
 #: View/Requests/add.ctp:114
-#, fuzzy
 msgid "Preview Images"
-msgstr "Погледај страницу"
+msgstr "Сличице прегледа"
 
 #: View/Requests/add.ctp:118 View/Users/portfolio.ctp:40
-#, fuzzy
 msgid "Images"
-msgstr "Слика"
+msgstr "Слике"
 
 #: View/Requests/add.ctp:120
-#, fuzzy
 msgid "Recommended: SQUARE, PNG, 1024px wide, objects centered"
-msgstr "Препоручљиво : Квадратан приказ, ПНГ, 1204пx ширине, објекат центриран"
+msgstr "Препоручљиво : Квадратан приказ, PNG, ширине 1024px, центриран објекат"
 
 #: View/Requests/admin_add.ctp:4
 msgid "Admin Add Request"
@@ -4811,9 +4622,8 @@ msgid "Requested by"
 msgstr "Затражен од"
 
 #: View/Requests/media.ctp:90
-#, fuzzy
 msgid "Upload file"
-msgstr "Додај нову blend датотеку"
+msgstr "Пошаљи датотеку"
 
 #: View/Requests/view.ctp:22
 msgid "Click to start following this user"
@@ -4832,14 +4642,12 @@ msgid "Conflicting requirements can be treated as optional ;)"
 msgstr ""
 
 #: View/Requests/view.ctp:82
-#, fuzzy
 msgid "This request has been closed; nobody can answer it anymore."
-msgstr "Овај blend захтев ће бити затворен за нове одговоре. Да ли си сигуран?"
+msgstr "Овај захтев је затворен; нико више не може да одговори на њега."
 
 #: View/Requests/view.ctp:95
-#, fuzzy
 msgid "Respond"
-msgstr "Одговора"
+msgstr "Одговор"
 
 #: View/Requests/view.ctp:189
 msgid ""
@@ -4848,66 +4656,55 @@ msgid ""
 msgstr ""
 
 #: View/Requests/rss/index.ctp:4
-#, fuzzy
 msgid "Newest Requests"
-msgstr "Нови захтев"
+msgstr "Нови захтеви"
 
 #: View/Requests/rss/index.ctp:6
-#, fuzzy
 msgid "The latest Requests on Blend Swap."
-msgstr "Недавни захтеви на Blend Swap-у."
+msgstr "Најновији захтеви на Blend Swap-у."
 
 # Term Id
 #: View/Terms/_view.ctp:2 View/Terms/admin_view.ctp:2
-#, fuzzy
 msgid "Term"
-msgstr "Ид термина"
+msgstr "Услов"
 
 #: View/Terms/_view.ctp:29 View/Terms/admin_view.ctp:29 View/Terms/edit.ctp:4
-#, fuzzy
 msgid "Edit Term"
-msgstr "Измена корисника"
+msgstr "Измена услова"
 
 #: View/Terms/_view.ctp:30 View/Terms/admin_view.ctp:30
-#, fuzzy
 msgid "Delete Term"
-msgstr "Обриши корисника"
+msgstr "Обриши услов"
 
 # Termrel ???
 #: View/Terms/_view.ctp:31 View/Terms/add.ctp:17 View/Terms/admin_add.ctp:18
 #: View/Terms/admin_edit.ctp:20 View/Terms/admin_view.ctp:31
 #: View/Terms/edit.ctp:19
-#, fuzzy
 msgid "List Terms"
-msgstr "Листа термрела"
+msgstr "Листа услова"
 
 # termrel ???
 #: View/Terms/_view.ctp:32 View/Terms/admin_index.ctp:15
 #: View/Terms/admin_view.ctp:32 View/Terms/index.ctp:44
-#, fuzzy
 msgid "New Term"
-msgstr "Нови термрел"
+msgstr "Нови услов"
 
 #: View/Terms/add.ctp:4
-#, fuzzy
 msgid "Add Term"
-msgstr "Додај кључ"
+msgstr "Додај услов"
 
 #: View/Terms/admin_add.ctp:4
-#, fuzzy
 msgid "Admin Add Term"
-msgstr "Админ додавање корисника"
+msgstr "Админ додавање услова"
 
 #: View/Terms/admin_edit.ctp:4
-#, fuzzy
 msgid "Admin Edit Term"
-msgstr "Админ измена корисника"
+msgstr "Админ измена услова"
 
 # Term Id
 #: View/Terms/index.ctp:2
-#, fuzzy
 msgid "Terms"
-msgstr "Ид термина"
+msgstr "Услови"
 
 #: View/Terms/rss/category.ctp:4
 msgid "Newest Blends under \"%s\""
@@ -4915,7 +4712,7 @@ msgstr ""
 
 #: View/Terms/rss/category.ctp:6
 msgid "The latest blends on Blend Swap under the \"%s\" category."
-msgstr ""
+msgstr "Последњи blend радови на Blend Swap-у у \"%s\" категорији."
 
 #: View/Users/account.ctp:4 View/Users/admin_view.ctp:230
 msgid "Edit User"
@@ -4923,7 +4720,7 @@ msgstr "Измена корисника"
 
 #: View/Users/add.ctp:181
 msgid "I have read and agree with the %s"
-msgstr ""
+msgstr "Прочитао сам и слажем се са %s"
 
 #: View/Users/add.ctp:185
 msgid "Sign me up!"
@@ -4964,7 +4761,6 @@ msgid "Your bandwidth history by month"
 msgstr "Историја преузимања по месецима"
 
 #: View/Users/bandwidth.ctp:8
-#, fuzzy
 msgid "You have unlimited bandwidth!you can totally ignore this"
 msgstr "Игноришите ово јер имате неограничено преузимање!"
 
@@ -4975,7 +4771,7 @@ msgstr ""
 # Nadogradi, dodaj još protoka
 #: View/Users/bandwidth.ctp:10
 msgid "upgrade now!"
-msgstr "унапреди сад!"
+msgstr "Надогради сад!"
 
 #: View/Users/bandwidth.ctp:14
 msgid "Learn how bandwidth is assigned"
@@ -4983,23 +4779,23 @@ msgstr "Сазнајте како се додељује проток"
 
 #: View/Users/bandwidth.ctp:22
 msgid "Persistent awarded bandwidth"
-msgstr ""
+msgstr "Трајни наградни проток"
 
 #: View/Users/bandwidth.ctp:28
 msgid "This is bandwidth you have earned by completing %s or %s"
-msgstr ""
+msgstr "Ово је проток који сте зарадили извршавањем %s или %s"
 
 #: View/Users/bandwidth.ctp:32
 msgid "This bandwidth does not expire until you use it all."
-msgstr ""
+msgstr "Проток не истиче док га скроз не искористите"
 
 #: View/Users/bandwidth.ctp:36
 msgid "Extra bandwidth"
-msgstr "Екстра проток"
+msgstr "Екстра ороток"
 
 #: View/Users/bandwidth.ctp:55;59
 msgid "Megabytes"
-msgstr ""
+msgstr "Мегабајта"
 
 #: View/Users/bandwidth.ctp:62
 msgid "Initialized"
@@ -5023,7 +4819,7 @@ msgstr "Налог и подешавања"
 
 #: View/Users/edit.ctp:10
 msgid "&larr; Don't see your avatar?"
-msgstr "&larr; Не видиш аватар?"
+msgstr "&larr; Ваш Аватар није приказан?"
 
 #: View/Users/edit.ctp:11
 msgid "Get an account (or link your email below) on %s"
@@ -5039,7 +4835,7 @@ msgstr ""
 
 #: View/Users/edit.ctp:46
 msgid "Wanna change it?"
-msgstr "Желите урадити измене?"
+msgstr "Желите да га промените?"
 
 #: View/Users/edit.ctp:55
 msgid ""
@@ -5067,7 +4863,7 @@ msgstr "Мој blend је додат у јавну колекцију."
 
 #: View/Users/edit.ctp:74
 msgid "My blends are added to Staff Picks"
-msgstr "Мој blend је додат у одабир уредника"
+msgstr "Мој blend рад је додат у одабир уредника"
 
 #: View/Users/edit.ctp:75
 msgid "Another user sends me a message"
@@ -5099,9 +4895,8 @@ msgid "Associate Members"
 msgstr "Придружени чланови"
 
 #: View/Users/edit.ctp:138
-#, fuzzy
 msgid "can set the amount of Blends per index page up to 48"
-msgstr "можете подесити да буде приказано до 60 blend радова"
+msgstr "можете подесити да буде приказано до 48 blend радова"
 
 #: View/Users/edit.ctp:144;145
 msgid "blends per page"
@@ -5113,9 +4908,8 @@ msgid "default"
 msgstr "подразумевано"
 
 #: View/Users/edit.ctp:147
-#, fuzzy
 msgid "Blends per index page"
-msgstr "blend радова по страници"
+msgstr "blend радова по индекс страници"
 
 #: View/Users/edit.ctp:173
 msgid "Account status"
@@ -5123,25 +4917,24 @@ msgstr "Статус налога"
 
 #: View/Users/edit.ctp:182
 msgid "Freeze your account"
-msgstr "Замрзава ваш налог"
+msgstr "Замрзни свој налог"
 
 #: View/Users/edit.ctp:184
 msgid "Deactivating your acount takes a couple of clicks"
-msgstr ""
+msgstr "Потебно је пар кликова за деактивирање налога"
 
 #: View/Users/forhire.ctp:10 View/Users/index.ctp:27;53;78
 #: View/Users/view.ctp:48
 msgid "points"
-msgstr "бодови"
+msgstr "бодова"
 
 #: View/Users/forhire.ctp:11 View/Users/view.ctp:46
 msgid "blends"
-msgstr "blend-ови"
+msgstr "blend-ова"
 
 #: View/Users/forhire.ctp:24
-#, fuzzy
 msgid "This user has not set their skills yet..."
-msgstr "Овај корисник нема зарађен беџ, за сада ..."
+msgstr "Овај корисник још није навео своје способности ..."
 
 #: View/Users/forhire.ctp:35
 msgid ""
@@ -5219,7 +5012,7 @@ msgstr ""
 
 #: View/Users/freeze.ctp:43
 msgid "Freeze My Account"
-msgstr "Замрзни ми налог"
+msgstr "Заледи мој налог"
 
 # Top Uploaders - Najveći dodavači ???
 #: View/Users/index.ctp:7
@@ -5236,13 +5029,13 @@ msgstr ""
 
 #: View/Users/index.ctp:39
 msgid "Top Voted"
-msgstr ""
+msgstr "Највише гласова"
 
 #: View/Users/index.ctp:41
 msgid ""
 "The top of the ranking!Points awarded on comments and sharing many blends"
 msgstr ""
-"Најбоље ранирани! Бодови освојени коментарисањем и дељењем blend радова"
+"Најбоље рангирани! Бодови освојени коментарисањем и дељењем blend радова"
 
 #: View/Users/index.ctp:64
 msgid "Recently Swapped"
@@ -5262,7 +5055,7 @@ msgstr "Региструј се!"
 
 #: View/Users/password.ctp:17
 msgid "Please be careful when changing your password"
-msgstr ""
+msgstr "Водите рачуна приликом измене лозинке"
 
 #: View/Users/password.ctp:18
 msgid ""
@@ -5327,7 +5120,7 @@ msgstr "Корак 3"
 
 #: View/Users/password.ctp:88
 msgid "Please enter your new password twice"
-msgstr ""
+msgstr "Унесите своју нову лозинку два пута"
 
 #: View/Users/password.ctp:105
 msgid "Step 4"
@@ -5335,11 +5128,11 @@ msgstr "Корак 4"
 
 #: View/Users/password.ctp:111
 msgid "You can now log in with your USERNAME and NEW PASSWORD"
-msgstr ""
+msgstr "Сада се можете пријавити са вашим корисничким именом и лозинком"
 
 #: View/Users/password.ctp:112
 msgid "Remember to use your USERNAME to log in, not your email"
-msgstr ""
+msgstr "Запамтите да користите свеоје корисничко име приликом пријаве, а не адресу ел. поште"
 
 #: View/Users/password.ctp:113
 msgid "Log in now!"
@@ -5347,24 +5140,25 @@ msgstr "Пријави се сад!"
 
 #: View/Users/portfolio.ctp:8
 msgid "Manage your Portfolio"
-msgstr ""
+msgstr "Управљај својим постфолиом"
 
 #: View/Users/portfolio.ctp:10
 msgid "For Hire"
-msgstr ""
+msgstr "За ангажовање"
 
 #: View/Users/portfolio.ctp:11
 msgid ""
 "Your public portfolio is meant to showcase your best renders and artwork"
 msgstr ""
+"Ваш јавни портфолио представља приказ ваших најбољих радова"
 
 #: View/Users/portfolio.ctp:12
 msgid "Combine it with the %s badge and promote yourself for serious work"
-msgstr ""
+msgstr "Упари са %s беџом и промовиши себе за озбиљне послове"
 
 #: View/Users/portfolio.ctp:15
 msgid "Recommended size: 1024px by 640px (16/10)"
-msgstr ""
+msgstr "Препоручене димензије су 1024px са 640px (16/10)"
 
 #: View/Users/portfolio.ctp:20
 msgid "Add a new render"
@@ -5400,15 +5194,15 @@ msgstr "О %s"
 
 #: View/Users/view.ctp:62
 msgid "Looks like you don't have biographical info"
-msgstr ""
+msgstr "Изгледа да нисте написали своју биографију"
 
 #: View/Users/view.ctp:64
 msgid "Would you like to complete it?"
-msgstr ""
+msgstr "Да ли желите да завршите?"
 
 #: View/Users/view.ctp:74
 msgid "Portfolio"
-msgstr "Портфоло"
+msgstr "Портфолио"
 
 #: View/Users/view.ctp:82
 msgid "Badges"
@@ -5416,4 +5210,4 @@ msgstr "Беџеви"
 
 #: View/Users/view.ctp:94
 msgid "Recent comments by %s"
-msgstr ""
+msgstr "Скорашњни коментари од %s"
